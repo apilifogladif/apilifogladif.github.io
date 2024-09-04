@@ -94,49 +94,49 @@
             <div>
                 <h3 class="text-lg font-semibold text-gray-900">Python</h3>
                 <div class="w-full bg-gray-200 rounded-full h-4">
-                    <div class="bg-blue-600 h-4 rounded-full" style="width: 95%;"></div>
+                    <div class="bg-blue-600 h-4 rounded-full" style="width: 90%;"></div>
                 </div>
             </div>
             <div>
                 <h3 class="text-lg font-semibold text-gray-900">C++</h3>
                 <div class="w-full bg-gray-200 rounded-full h-4">
-                    <div class="bg-blue-600 h-4 rounded-full" style="width: 95%;"></div>
+                    <div class="bg-blue-600 h-4 rounded-full" style="width: 90%;"></div>
                 </div>
             </div>
             <div>
                 <h3 class="text-lg font-semibold text-gray-900">C</h3>
                 <div class="w-full bg-gray-200 rounded-full h-4">
-                    <div class="bg-blue-600 h-4 rounded-full" style="width: 85%;"></div>
+                    <div class="bg-blue-600 h-4 rounded-full" style="width: 80%;"></div>
                 </div>
             </div>
             <div>
                 <h3 class="text-lg font-semibold text-gray-900">JavaScript</h3>
                 <div class="w-full bg-gray-200 rounded-full h-4">
-                    <div class="bg-blue-600 h-4 rounded-full" style="width: 80%;"></div>
+                    <div class="bg-blue-600 h-4 rounded-full" style="width: 70%;"></div>
                 </div>
             </div>
             <div>
                 <h3 class="text-lg font-semibold text-gray-900">HTML5 & CSS</h3>
                 <div class="w-full bg-gray-200 rounded-full h-4">
-                    <div class="bg-blue-600 h-4 rounded-full" style="width: 95%;"></div>
+                    <div class="bg-blue-600 h-4 rounded-full" style="width: 80%;"></div>
                 </div>
             </div>
             <div>
                 <h3 class="text-lg font-semibold text-gray-900">PHP</h3>
                 <div class="w-full bg-gray-200 rounded-full h-4">
-                    <div class="bg-blue-600 h-4 rounded-full" style="width: 80%;"></div>
+                    <div class="bg-blue-600 h-4 rounded-full" style="width: 70%;"></div>
                 </div>
             </div>
             <div>
                 <h3 class="text-lg font-semibold text-gray-900">SQLite</h3>
                 <div class="w-full bg-gray-200 rounded-full h-4">
-                    <div class="bg-blue-600 h-4 rounded-full" style="width: 80%;"></div>
+                    <div class="bg-blue-600 h-4 rounded-full" style="width: 70%;"></div>
                 </div>
             </div>
             <div>
                 <h3 class="text-lg font-semibold text-gray-900">Java</h3>
                 <div class="w-full bg-gray-200 rounded-full h-4">
-                    <div class="bg-blue-600 h-4 rounded-full" style="width: 85%;"></div>
+                    <div class="bg-blue-600 h-4 rounded-full" style="width: 80%;"></div>
                 </div>
             </div>
         </div>
