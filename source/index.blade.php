@@ -92,27 +92,33 @@
         <h2 class="text-3xl font-bold text-center mb-8 text-gray-800"><i class="fa-solid fa-laptop text-3xl mr-2"></i>Skills &amp; Proficiency</h2>
         <div class="space-y-4">
             <div>
+                <h3 class="text-lg font-semibold text-gray-900">Flutter & Dart</h3>
+                <div class="w-full bg-gray-200 rounded-full h-4">
+                    <div class="bg-blue-600 h-4 rounded-full" style="width: 75%;"></div>
+                </div>
+            </div>
+            <div>
                 <h3 class="text-lg font-semibold text-gray-900">Python</h3>
                 <div class="w-full bg-gray-200 rounded-full h-4">
-                    <div class="bg-blue-600 h-4 rounded-full" style="width: 90%;"></div>
+                    <div class="bg-blue-600 h-4 rounded-full" style="width: 85%;"></div>
                 </div>
             </div>
             <div>
                 <h3 class="text-lg font-semibold text-gray-900">C++</h3>
                 <div class="w-full bg-gray-200 rounded-full h-4">
-                    <div class="bg-blue-600 h-4 rounded-full" style="width: 90%;"></div>
+                    <div class="bg-blue-600 h-4 rounded-full" style="width: 85%;"></div>
                 </div>
             </div>
             <div>
                 <h3 class="text-lg font-semibold text-gray-900">C</h3>
                 <div class="w-full bg-gray-200 rounded-full h-4">
-                    <div class="bg-blue-600 h-4 rounded-full" style="width: 80%;"></div>
+                    <div class="bg-blue-600 h-4 rounded-full" style="width: 55%;"></div>
                 </div>
             </div>
             <div>
                 <h3 class="text-lg font-semibold text-gray-900">JavaScript</h3>
                 <div class="w-full bg-gray-200 rounded-full h-4">
-                    <div class="bg-blue-600 h-4 rounded-full" style="width: 70%;"></div>
+                    <div class="bg-blue-600 h-4 rounded-full" style="width: 60%;"></div>
                 </div>
             </div>
             <div>
@@ -130,13 +136,19 @@
             <div>
                 <h3 class="text-lg font-semibold text-gray-900">SQLite</h3>
                 <div class="w-full bg-gray-200 rounded-full h-4">
-                    <div class="bg-blue-600 h-4 rounded-full" style="width: 70%;"></div>
+                    <div class="bg-blue-600 h-4 rounded-full" style="width: 80%;"></div>
+                </div>
+            </div>
+            <div>
+                <h3 class="text-lg font-semibold text-gray-900">Firebase</h3>
+                <div class="w-full bg-gray-200 rounded-full h-4">
+                    <div class="bg-blue-600 h-4 rounded-full" style="width: 80%;"></div>
                 </div>
             </div>
             <div>
                 <h3 class="text-lg font-semibold text-gray-900">Java</h3>
                 <div class="w-full bg-gray-200 rounded-full h-4">
-                    <div class="bg-blue-600 h-4 rounded-full" style="width: 80%;"></div>
+                    <div class="bg-blue-600 h-4 rounded-full" style="width: 65%;"></div>
                 </div>
             </div>
         </div>
