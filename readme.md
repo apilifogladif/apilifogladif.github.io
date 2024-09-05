@@ -93,3 +93,9 @@ Now that you’ve edited your configuration variables and know how to customize 
 # options: dev, prod
 npm run dev
 ```
+
+npm run prod
+git add .
+git commit
+git push
+git subtree push --prefix build_production origin gh-pages

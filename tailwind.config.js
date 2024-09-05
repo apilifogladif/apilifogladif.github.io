@@ -16,6 +16,9 @@ module.exports = {
   },
   theme: {
     extend: {
+      colors: {
+        turquoise: '#40E0D0',
+      },
       fontFamily: {
         sans: [
           'Nunito Sans'
