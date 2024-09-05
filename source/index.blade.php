@@ -29,10 +29,10 @@
         </div>
 
         <div class="bg-white shadow-lg rounded-lg p-6">
-            <h3 class="text-xl font-semibold text-gray-900 mb-2">Ensino Secundário</h3>
+            <h3 class="text-xl font-semibold text-gray-900 mb-2">High School</h3>
             <p class="text-gray-700 font-medium mb-1">Escola Secundária João Gonçalves Zarco, Matosinhos, Porto, Portugal</p>
             <p class="text-gray-500 mb-3"><i class="far fa-calendar-alt"></i> September 2019 - July 2022</p>
-            <p class="text-gray-800"><span class="font-semibold">Final Grade:</span> 17.6</p>
+            <p class="text-gray-800"><span class="font-semibold">Final Grade:</span> 17.8</p>
         </div>
     </div>
 
@@ -55,15 +55,15 @@
         <div class="space-y-6">
             <div class="bg-white shadow-lg rounded-lg p-6">
                 <h3 class="text-xl font-semibold text-gray-900 mb-2"><a href="https://github.com/apilifogladif/AED2324_PRJ1_G1207/tree/main" class="text-blue-600 hover:underline">Schedule Management</a></h3>
-                <p class="text-gray-700">System to manage schedules after they have been elaborated. - <span class="font-semibold">C++</span></p>
+                <p class="text-gray-700">System that manages schedules after their elaboration. - <span class="font-semibold">C++</span></p>
             </div>
             <div class="bg-white shadow-lg rounded-lg p-6">
                 <h3 class="text-xl font-semibold text-gray-900 mb-2"><a href="https://github.com/apilifogladif/ES2324_Project" class="text-blue-600 hover:underline">Maze</a></h3>
-                <p class="text-gray-700">Phone app that allows users to check the location of the bus they are waiting for more accurately with users' contributions. - <span class="font-semibold">Flutter & Dart</span></p>
+                <p class="text-gray-700">Mobile app that allows users to track buses locations, with increased accurancy due to users' contributions. - <span class="font-semibold">Flutter & Dart</span></p>
             </div>
             <div class="bg-white shadow-lg rounded-lg p-6">
                 <h3 class="text-xl font-semibold text-gray-900 mb-2"><a href="https://github.com/apilifogladif/AED2324_PRJ2_G1207/tree/main" class="text-blue-600 hover:underline">Flight Management</a></h3>
-                <p class="text-gray-700">Flight management system for the air travel network of the airlines. - <span class="font-semibold">C++</span></p>
+                <p class="text-gray-700">Flight management system for air travelling of airlines. - <span class="font-semibold">C++</span></p>
             </div>
             <div class="bg-white shadow-lg rounded-lg p-6">
                 <h3 class="text-xl font-semibold text-gray-900 mb-2"><a href="https://github.com/apilifogladif/DA2324_PRJ1_G13_4" class="text-blue-600 hover:underline">Water Supply Management</a></h3>
