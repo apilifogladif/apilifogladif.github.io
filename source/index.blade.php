@@ -11,7 +11,7 @@
             <p class="text-xl">I'm Filipa, a 20-year-old passionate about programming, with a keen interest in software development and robotics. This site showcases my academic journey, personal milestones, and the projects that have shaped my path so far. You can also download my CV in PDF format for more detailed insights into my experience and skills.</p>
 
             <div class="flex my-10">
-                <a href="{{ url('assets/files/Filipa Fidalgo.pdf') }}" download>
+                <a href="assets/files/Filipa Fidalgo.pdf" download>
                     <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
                         Download CV
                     </button>
