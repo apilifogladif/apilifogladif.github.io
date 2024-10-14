@@ -10,9 +10,13 @@
 
             <p class="text-xl">I'm Filipa, a 20-year-old passionate about programming, with a keen interest in software development and robotics. This site showcases my academic journey, personal milestones, and the projects that have shaped my path so far. You can also download my CV in PDF format for more detailed insights into my experience and skills.</p>
 
-            <!-- <div class="flex my-10">
-                <a href="/docs/getting-started" title="{{ $page->siteName }} cv" class="font-normal text-white hover:text-white rounded mr-4 py-2 px-6 bg-turquoise hover:bg-gray-600">Download CV</a>
-            </div> -->
+            <div class="flex my-10">
+                <a href="{{ url('assets/files/Filipa Fidalgo.pdf') }}" download>
+                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                        Download CV
+                    </button>
+                </a>
+            </div>
         </div>
 
         <div class="mx-auto w-1/5 md:w-1/2">
@@ -47,7 +51,7 @@
             </div>
             <div class="bg-white shadow-lg rounded-lg p-6 m-4 w-60 text-center">
                 <h3 class="text-xl font-semibold text-gray-900 mb-2">English</h3>
-                <p class="text-gray-700 font-medium">Intermediate</p>
+                <p class="text-gray-700 font-medium">Advanced</p>
             </div>
             <div class="bg-white shadow-lg rounded-lg p-6 m-4 w-60 text-center">
                 <h3 class="text-xl font-semibold text-gray-900 mb-2">Spanish</h3>
