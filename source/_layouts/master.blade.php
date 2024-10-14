@@ -53,7 +53,7 @@
                     <a href="https://www.linkedin.com/in/filipa-fidalgo-a28a48247/" target="_blank" class="text-gray-500 hover:text-blue-700 ml-5">
                         <i class="fab fa-linkedin text-4xl md:text-4xl"></i>
                     </a>
-                    <a href="filipajacobfidalgo@gmail.com" class="text-gray-500 hover:text-blue-700 ml-5">
+                    <a href="mailto:filipajacobfidalgo@gmail.com" class="text-gray-500 hover:text-blue-700 ml-5">
                         <i class="fas fa-envelope text-4xl md:text-4xl"></i>
                     </a>
                 </div>
