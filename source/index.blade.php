@@ -8,7 +8,7 @@
 
             <h2 id="intro-powered-by-jigsaw" class="font-light mt-4">{{ $page->siteDescription }}</h2>
 
-            <p class="text-xl">I'm Filipa, a 20-year-old passionate about programming, with a keen interest in software development and robotics. This site showcases my academic journey, personal milestones, and the projects that have shaped my path so far. You can also download my CV in PDF format for more detailed insights into my experience and skills.</p>
+            <p class="text-xl">I'm Filipa, a 20-year-old passionate about programming, with a keen interest in software development, robotics and AI. This site showcases my academic journey, personal milestones, and the projects that have shaped my path so far. You can also download my CV in PDF format for more detailed insights into my experience and skills.</p>
 
             <div class="flex my-10">
                 <a href="assets/files/Filipa Fidalgo.pdf" download>
