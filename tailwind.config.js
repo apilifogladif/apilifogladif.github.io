@@ -18,6 +18,7 @@ module.exports = {
     extend: {
       colors: {
         turquoise: '#40E0D0',
+        lightTurquoise: '#d3f2ef',
       },
       fontFamily: {
         sans: [

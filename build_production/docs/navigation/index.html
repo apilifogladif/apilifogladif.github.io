@@ -6,18 +6,18 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="description" content="Building a navigation menu for your site">
 
-        <meta property="og:site_name" content="Filipa Jacob Fidalgo"/>
-        <meta property="og:title" content="Navigation | Filipa Jacob Fidalgo"/>
+        <meta property="og:site_name" content="Filipa Fidalgo"/>
+        <meta property="og:title" content="Navigation | Filipa Fidalgo"/>
         <meta property="og:description" content="Building a navigation menu for your site"/>
         <meta property="og:url" content="https://jigsaw-docs-template.tighten.co/docs/navigation"/>
         <meta property="og:image" content="/assets/img/logo.png"/>
         <meta property="og:type" content="website"/>
 
-        <meta name="twitter:image:alt" content="Filipa Jacob Fidalgo">
+        <meta name="twitter:image:alt" content="Filipa Fidalgo">
         <meta name="twitter:card" content="summary_large_image">
 
         
-        <title>Filipa Jacob Fidalgo | Navigation</title>
+        <title>Filipa Fidalgo | Navigation</title>
 
         <link rel="home" href="https://jigsaw-docs-template.tighten.co">
         <link rel="icon" href="/favicon.ico">
@@ -26,52 +26,56 @@
                     <!-- Insert analytics code here -->
         
         <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,700i,800,800i" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-        <link rel="stylesheet" href="/assets/build/css/main.css?id=68a4077e0468a03eaa6165ebb837e5d0">
+        <link rel="stylesheet" href="/assets/build/css/main.css?id=965073b5c18df709ec997add4e0923b8">
 
             </head>
 
-    <body class="flex flex-col justify-between min-h-screen bg-gray-100 text-gray-800 leading-normal font-sans">
-        <header class="flex items-center shadow bg-white border-b h-24 mb-8 py-4" role="banner">
-            <div class="container flex items-center max-w-8xl mx-auto px-4 lg:px-8">
-                <div class="flex items-center">
-                    <a href="/" title="Filipa Jacob Fidalgo home" class="inline-flex items-center">
-                        <img class="h-8 md:h-10 mr-3 rounded-image" src="/assets/img/main_pic.jpg" alt="Filipa Jacob Fidalgo logo" />
-                    </a>
-                    <a href="https://github.com/apilifogladif" target="_blank" class="text-gray-500 hover:text-black ml-3">
-                        <i class="fab fa-github text-4xl md:text-4xl"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/filipa-fidalgo-a28a48247/" target="_blank" class="text-gray-500 hover:text-blue-700 ml-5">
-                        <i class="fab fa-linkedin text-4xl md:text-4xl"></i>
-                    </a>
-                    <a href="mailto:filipajacobfidalgo@gmail.com" class="text-gray-500 hover:text-blue-700 ml-5">
-                        <i class="fas fa-envelope text-4xl md:text-4xl"></i>
+    <body class="flex flex-col justify-between min-h-screen font-sans leading-normal text-gray-800 bg-gray-50">
+        <header class="sticky top-0 z-50 flex items-center h-20 py-4 bg-white border-b shadow" role="banner">
+            <div class="grid w-full grid-cols-[1fr,auto] px-4 mx-2 lg:px-8">
+                <div class="flex items-center justify-start col-span-1 col-start-1">
+                    <a href="/" title="Filipa Fidalgo home" class="inline-flex items-center">
+                        <img class="h-10 mr-3 md:h-12 rounded-image" src="/assets/img/main_pic.jpg" alt="Filipa Fidalgo logo" />
+                        <span class="ml-2 text-xl font-bold text-gray-800">Filipa Fidalgo</span>
                     </a>
                 </div>
-
-                <div class="flex flex-1 justify-end items-center text-right md:pl-10">
-                                    </div>
+                <div class="flex items-center justify-end col-span-1 col-start-2">
+                    <!-- Hamburger Button (visible on mobile only) -->
+                    <button id="menu-toggle" class="text-gray-700 md:hidden focus:outline-none">
+                      <i class="text-2xl fas fa-bars"></i>
+                    </button>
+                  
+                    <!-- Navigation Menu -->
+                    <nav id="menu" class="absolute right-0 z-40 hidden w-full bg-white shadow-md top-20 md:static md:flex md:w-auto md:bg-transparent md:shadow-none">
+                        <div class="flex flex-col items-start md:flex-row md:items-center">
+                            <a href="/about" class="block px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-turquoise ">About</a>
+                            <a href="/projects" class="block px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-turquoise ">Projects</a>
+                            <a href="/academic" class="block px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-turquoise ">Academic</a>
+                            <a href="/experience" class="block px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-turquoise ">Experience</a>
+                            <a href="/skills" class="block px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-turquoise ">Skills</a>
+                            <a href="/contact" class="block px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-turquoise ">Contact</a>
+                        </div>
+                    </nav>
+                  
+                    <!-- Social Icons -->
+                    <div class="flex items-center ml-4">
+                        <a href="https://github.com/apilifogladif" target="_blank" class="flex items-center justify-center p-2 ml-1 text-gray-500 transition-all duration-200 rounded-full hover:text-black hover:bg-gray-100 hover:shadow-md hover:scale-110" title="GitHub Profile">
+                            <i class="text-xl fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/filipa-fidalgo-a28a48247/" target="_blank" class="flex items-center justify-center p-2 ml-1 text-gray-500 transition-all duration-200 rounded-full hover:text-blue-600 hover:bg-gray-100 hover:shadow-md hover:scale-110" title="LinkedIn Profile">
+                            <i class="text-xl fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:filipajacobfidalgo@gmail.com" class="flex items-center justify-center p-2 ml-1 text-gray-500 transition-all duration-200 rounded-full hover:text-blue-600 hover:bg-gray-100 hover:shadow-md hover:scale-110" title="Email Me">
+                            <i class="text-xl fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
-
-                <button class="flex justify-center items-center bg-blue-500 border border-blue-500 h-10 mr-4 px-5 rounded-full lg:hidden focus:outline-none"
-    onclick="navMenu.toggle()"
->
-    <svg id="js-nav-menu-show" xmlns="http://www.w3.org/2000/svg"
-        class="fill-current text-white h-9 w-4" viewBox="0 0 32 32"
-    >
-        <path d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"/>
-    </svg>
-
-    <svg id="js-nav-menu-hide" xmlns="http://www.w3.org/2000/svg"
-        class="hidden fill-current text-white h-9 w-4" viewBox="0 0 36 30"
-    >
-        <polygon points="32.8,4.4 28.6,0.2 18,10.8 7.4,0.2 3.2,4.4 13.8,15 3.2,25.6 7.4,29.8 18,19.2 28.6,29.8 32.8,25.6 22.2,15 "/>
-    </svg>
-</button>
-
         </header>
 
-        <main role="main" class="w-full flex-auto">
+        <main role="main" class="flex-auto w-full">
             <section class="container max-w-8xl mx-auto px-6 md:px-8 py-4">
     <div class="flex flex-col lg:flex-row">
         <nav id="js-nav-menu" class="nav-menu hidden lg:block">
@@ -182,17 +186,46 @@ $page-&gt;navigation
     }
 </script>
 
-        <footer class="bg-white text-center text-sm mt-12 py-4" role="contentinfo">
-            <ul class="flex flex-col md:flex-row justify-center">
-                <li class="md:mr-2">
-                    &copy; <a href="/" title="Filipa Jacob Fidalgo home" title="Filipa Fidalgo" class="text-turquoise">Filipa Fidalgo</a> 2025.
-                </li>
+        <script>
+            document.getElementById('menu-toggle').addEventListener('click', function () {
+                const menu = document.getElementById('menu');
+                menu.classList.toggle('hidden');
+            });
+        </script>
 
-                <li>
-                    Built with <a href="http://jigsaw.tighten.co" title="Jigsaw by Tighten" class="text-turquoise">Jigsaw</a>
-                    and <a href="https://tailwindcss.com" title="Tailwind CSS, a utility-first CSS framework" class="text-turquoise">Tailwind CSS</a>.
-                </li>
-            </ul>
+        <footer class="pt-8 pb-4 text-center text-white bg-gradient-to-r from-gray-800 to-gray-900" role="contentinfo">
+            <div class="container max-w-6xl px-6 mx-auto">
+                <div class="grid gap-8 md:grid-cols-2">
+                    <!-- About Column -->
+                    <div class="text-left">
+                        <h3 class="mb-4 text-xl font-semibold text-turquoise">Filipa Fidalgo</h3>
+                        <div class="flex mb-4 space-x-3">
+                            <a href="https://github.com/apilifogladif" class="flex items-center justify-center w-10 h-10 p-2 text-white transition-colors bg-gray-700 rounded-full hover:bg-turquoise" target="_blank" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/filipa-fidalgo-a28a48247/" class="flex items-center justify-center w-10 h-10 p-2 text-white transition-colors bg-gray-700 rounded-full hover:bg-turquoise" target="_blank" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="mailto:filipajacobfidalgo@gmail.com" class="flex items-center justify-center w-10 h-10 p-2 text-white transition-colors bg-gray-700 rounded-full hover:bg-turquoise" aria-label="Email">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Download CV -->
+                    <div class="text-left md:text-right">
+                        <h3 class="mb-4 text-xl font-semibold text-turquoise">Download Resume</h3>
+                        <a href="assets/files/Filipa Fidalgo.pdf" download class="inline-flex items-center px-5 py-2 font-medium text-white transition-colors border-2 rounded-lg border-turquoise hover:bg-turquoise">
+                            <i class="mr-2 fas fa-download"></i>Download CV
+                        </a>
+                    </div>
+                </div>
+                <div class="mt-4 text-sm text-gray-400 border-t border-gray-700">
+                    <p class="mt-2 mb-0">&copy; 2025 Filipa Fidalgo. All rights reserved.</p>
+                    <p class="mt-2 mb-0">Built with <a href="http://jigsaw.tighten.co" class="text-turquoise hover:underline">Jigsaw</a>
+                    and <a href="https://tailwindcss.com" class="text-turquoise hover:underline">Tailwind CSS</a>.</p>
+                </div>
+            </div>
         </footer>
     </body>
 </html>
