@@ -34,24 +34,6 @@
                         <i class="mr-2 fas fa-file-download"></i> Download CV
                     </a>
                 </div>
-                <!-- Social Media Links -->
-                <div class="flex justify-center space-x-4 lg:justify-start animate__animated animate__fadeIn animate__delay-4s">
-                    @if(isset($page->personalInfo['github']))
-                    <a href="{{ $page->personalInfo['github'] }}" target="_blank" class="text-white transition-colors duration-300 hover:text-yellow-300">
-                        <i class="text-2xl fab fa-github"></i>
-                    </a>
-                    @endif
-                    @if(isset($page->personalInfo['linkedin']))
-                    <a href="{{ $page->personalInfo['linkedin'] }}" target="_blank" class="text-white transition-colors duration-300 hover:text-yellow-300">
-                        <i class="text-2xl fab fa-linkedin"></i>
-                    </a>
-                    @endif
-                    @if(isset($page->personalInfo['email']))
-                    <a href="mailto:{{ $page->personalInfo['email'] }}" class="text-white transition-colors duration-300 hover:text-yellow-300">
-                        <i class="text-2xl fas fa-envelope"></i>
-                    </a>
-                    @endif
-                </div>
             </div>
             <div class="flex justify-center w-48 lg:w-2/5 md:w-64 animate__animated animate__fadeIn">
                 <div class="relative">
