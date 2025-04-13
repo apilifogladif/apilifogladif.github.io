@@ -106,7 +106,11 @@
                             
                             @if (!empty($education['grade']) && !empty($education['grade_max']))
                                 <div class="flex items-center pt-4 mt-4 border-t border-gray-100">
-                                    <span class="mr-2 font-medium text-gray-600">Final Grade:</span>
+                                    @if ($education['current'] == "true")
+                                        <span class="mr-2 font-medium text-gray-600">Current Grade:</span>
+                                    @else
+                                        <span class="mr-2 font-medium text-gray-600">Final Grade:</span>
+                                    @endif
                                     <span class="px-3 py-1 font-bold bg-gray-100 rounded-md text-turquoise-dark">
                                         {{ $education['grade'] }}/{{ $education['grade_max'] }}
                                         <span class="ml-1 text-sm text-gray-500">({{ number_format(($education['grade'] / $education['grade_max']) * 100, 1) }}%)</span>
@@ -121,7 +125,7 @@
             @if (empty($parsedEducations))
                 <div class="p-8 mt-8 text-center bg-white rounded-lg shadow-md">
                     <i class="block mb-4 text-4xl text-gray-400 fas fa-graduation-cap"></i>
-                    <p class="text-gray-700">No professional education entries found.</p>
+                    <p class="text-gray-700">No education entries found.</p>
                 </div>
             @endif
         </div>
