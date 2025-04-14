@@ -1,7 +1,7 @@
 ---
 name: JavaScript
 category: web
-proficiency: 60
+proficiency: 50
 icon: js
 icon_type: fab
 ---
