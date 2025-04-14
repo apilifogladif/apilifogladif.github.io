@@ -1,6 +1,6 @@
 ---
 name: Vue.js
-category: framework
-proficiency: 65
+category: frameworks
+proficiency: 70
 ---
 Skilled in Vue.js for building dynamic user interfaces.
