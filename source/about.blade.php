@@ -69,6 +69,10 @@
                             <span>{{ $aboutInfo['education'] ?? 'BSc in Informatics and Computing Engineering' }}</span>
                         </li>
                         <li class="flex">
+                            <i class="mr-3 text-turquoise fas fa-briefcase"></i>
+                            <span>{{ $aboutInfo['job'] ?? 'AI Developer Analyst at UPGRAIDE' }}</span>
+                        </li>
+                        <li class="flex">
                             <i class="mr-3 text-turquoise fas fa-envelope"></i>
                             <a href="mailto:{{ $aboutInfo['email'] ?? 'filipajacobfidalgo@gmail.com' }}" class="text-blue-600 hover:underline">{{ $aboutInfo['email'] ?? 'filipajacobfidalgo@gmail.com' }}</a>
                         </li>
@@ -85,9 +89,9 @@
             <div class="md:w-2/3">
                 <div class="p-8 mb-8 bg-white rounded-lg shadow-md">
                     <h2 class="pb-2 mb-4 text-2xl font-bold text-gray-800 border-b border-gray-200">About Myself</h2>
-                    <p class="mb-4 leading-relaxed text-gray-700">
-                        {{ $description }}
-                    </p>
+                    <div class="mb-4 leading-relaxed text-gray-700">
+                        {!! \Michelf\Markdown::defaultTransform($description) !!}
+                    </div>
                 </div>
                 
                 <div class="p-8 bg-white rounded-lg shadow-md">

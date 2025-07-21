@@ -6,7 +6,7 @@ end_date: July 2022
 current: false
 grade: 17.8
 grade_max: 20
-order: 2
+order: 3
 icon: school
 description: Completed secondary education with focus on science and technology.
 ---
