@@ -1,6 +1,6 @@
 ---
 name: Filipa Fidalgo
-age: 20 years old
+age: 21 years old
 location: Porto, Portugal
 education: BSc in Informatics and Computing Engineering
 job: AI Developer Analyst at UPGRAIDE
