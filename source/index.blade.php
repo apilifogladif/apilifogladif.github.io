@@ -24,7 +24,7 @@
                 </h2>
                 <p class="mb-8 text-lg leading-relaxed animate__animated animate__fadeIn animate__delay-2s">
                     A passionate programmer interested in software development, robotics, and AI.
-                    Currently pursuing my degree in Informatics and Computing Engineering at the Faculty of Engineering, University of Porto.
+                    Currently pursuing my Master's degree in Artificial Intelligence at the Faculty of Engineering, University of Porto.
                 </p>
                 <div class="flex flex-wrap justify-center gap-4 mb-8 lg:justify-start animate__animated animate__fadeInUp animate__delay-3s">
                     <a href="/projects" class="px-6 py-3 font-bold text-blue-600 transition-all duration-300 transform bg-white rounded-lg shadow-lg hover:bg-gray-100 hover:shadow-xl hover:-translate-y-1">
