@@ -80,7 +80,7 @@
                 </div>
                 
                 <div class="flex justify-center">
-                    <a href="assets/files/Filipa Fidalgo.pdf" download class="inline-block px-6 py-3 font-medium text-white transition duration-300 rounded-lg shadow bg-turquoise hover:bg-turquoise-dark">
+                    <a href="/assets/files/Filipa Fidalgo.pdf" download class="inline-block px-6 py-3 font-medium text-white transition duration-300 rounded-lg shadow bg-turquoise hover:bg-turquoise-dark">
                         <i class="mr-2 fas fa-download"></i>Download CV
                     </a>
                 </div>
