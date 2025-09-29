@@ -1,7 +1,7 @@
 ---
 title: MSc in Artificial Intelligence
 institution: Faculty of Engineering, University of Porto, Portugal
-start_date: Starting at September 2025
+start_date: September 2025
 end_date: 
 current: true
 order: 1
