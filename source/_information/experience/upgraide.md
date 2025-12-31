@@ -7,3 +7,4 @@ end_date: June 2025
 current: false
 order: 2
 ---
+Developed a CRM using Laravel with a micro-service in Python related to AI.

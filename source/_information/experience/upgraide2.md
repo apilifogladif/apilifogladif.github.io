@@ -7,3 +7,4 @@ end_date: Current
 current: true
 order: 1
 ---
+Hands-on experience across multiple projects spanning backend (Python, FastAPI), frontend (TypeScript), DevOps, and the integration of LLM and machine learning technologies, with deployments on GCP and servers using Docker and CI/CD pipelines.
